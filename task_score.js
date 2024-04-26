@@ -7,7 +7,7 @@ const introScore = 105;
 const gitScore = 177;
 const jsScore = 180;
 
-let total = introScore + gitScore + jsScore
+let total = introScore + gitScore + jsScore;
 
 let averageMark = Math.ceil(total /3);
 
