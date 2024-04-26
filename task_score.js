@@ -3,8 +3,8 @@ let nameStudent = "Nastya";
 let newNameStudent = nameStudent.slice(0,1);
 let surnameStudent = "Tsatsura";
 
-const introScore = 180;
-const gitScore = 180;
+const introScore = 105;
+const gitScore = 177;
 const jsScore = 180;
 
 let total = introScore + gitScore + jsScore
