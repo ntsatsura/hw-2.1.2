@@ -1,7 +1,5 @@
-const valueTest = [1, 100];
-
 const value1 = 1;
-const value2 = Math.floor(Math.random(valueTest) * 100);
+const value2 = Math.floor(Math.random () * 100);
 
 console.log(`This is random number: ${value2}`);
 
