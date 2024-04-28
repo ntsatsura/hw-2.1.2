@@ -3,10 +3,10 @@ let nameStudent = "Nastya";
 let newNameStudent = nameStudent.slice(0,1);
 let surnameStudent = "Tsatsura";
 
-let moduleIntro = 20;
-let moduleGit = 30;
-let moduleJs = 30;
+const introScore = 105;
+const gitScore = 177;
+const jsScore = 180;
 
-let averageMark = Math.ceil((moduleIntro + moduleGit + moduleJs) / 3);
+let averageMark = (introScore + gitScore + jsScore) / 3;
 
 console.log(`The ${newNameStudent}. ${surnameStudent} average mark is ${averageMark}`);
