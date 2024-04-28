@@ -7,8 +7,6 @@ const introScore = 105;
 const gitScore = 177;
 const jsScore = 180;
 
-let total = introScore + gitScore + jsScore;
-
-let averageMark = Math.ceil(total /3);
+let averageMark = (introScore + gitScore + jsScore) / 3;
 
 console.log(`The ${newNameStudent}. ${surnameStudent} average mark is ${averageMark}`);
